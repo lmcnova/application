@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.container
+{
+    /* background-color: black; */
+    /* margin-top: 10px; */
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+    
+}
+
+.head
+{
+    text-transform: uppercase;
+}
+
+.row
+{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* text-align: center; */
+}
+/* 
+.col
+{
+    background-color: green;
+} */
+
+
+
+h3
+{
+    text-transform: capitalize;
+    color: white;
+}
+
+/* noprofile css code  */
+
+/* .btn-warning
+{
+    position: relative;
+    padding: 11px 16px;
+    font-size: 15px;
+    line-height: 1.5;
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+}
+
+
+.btn-warning input[type="file"]
+{
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: scale(5);
+    opacity: 0;
+} */
+
+
+.upload
+{
+    width: 100px;
+    position: relative;
+  
+}
+
+.upload img
+{
+    border-radius:  50%;
+    border:  6px solid #eaeaea;
+}
+
+.upload .round
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 85%;
+    top: 85%;
+    background:  #6200ee;
+    width: 32px;
+    height: 32px;
+    line-height: 29px;
+    text-align: center;
+    border-radius:  50%;
+    overflow: hidden;
+    color: white;
+}
+
+.upload .round input[type='file']
+{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+    cursor: pointer;
+}
+
+h3
+{
+    text-align: center;
+}
+
+
+.card
+{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+
+/* CSS */
+.btn {
+    width: 100%;
+  align-items: center;
+  appearance: none;
+  border-radius: 4px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 1px -2px,rgba(0, 0, 0, .14) 0 2px 2px 0,rgba(0, 0, 0, .12) 0 1px 5px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Roboto,sans-serif;
+  font-size: .875rem;
+  font-weight: 500;
+  height: 36px;
+  justify-content: center;
+  letter-spacing: .0892857em;
+  line-height: normal;
+  min-width: 64px;
+  outline: none;
+  overflow: visible;
+  padding: 0 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  will-change: transform,opacity;
+}
+
+.btn:hover {
+  box-shadow: rgba(0, 0, 0, .2) 0 2px 4px -1px, rgba(0, 0, 0, .14) 0 4px 5px 0, rgba(0, 0, 0, .12) 0 1px 10px 0;
+}
+
+.btn:disabled {
+  background-color: rgba(0, 26, 255);
+  box-shadow: rgba(0, 0, 0, .2) 0 0 0 0, rgba(0, 0, 0, .14) 0 0 0 0, rgba(0, 0, 0, .12) 0 0 0 0;
+  color: rgba(255, 255, 255);
+  cursor: default;
+  pointer-events: none;
+}
+
+.btn:not(:disabled) {
+  background-color: #6200ee;
+}
+
+.btn:focus {
+  box-shadow: rgba(0, 0, 0, .2) 0 2px 4px -1px, rgba(0, 0, 0, .14) 0 4px 5px 0, rgba(0, 0, 0, .12) 0 1px 10px 0;
+}
+
+.btn:active {
+  box-shadow: rgba(0, 0, 0, .2) 0 5px 5px -3px, rgba(0, 0, 0, .14) 0 8px 10px 1px, rgba(0, 0, 0, .12) 0 3px 14px 2px;
+  background: #A46BF5;
+}
+
+
+
+
+
+
+.form-control
+{
+    border: none;
+    border-bottom:1px solid #6200ee;
+}
+
+.form-label
+{
+    font-weight: bold;
+    color: white;
+}
+
+
+span{
+    color: red;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all 2s ease;
+}
+
+
+
+
+.btn.btn-outline-danger {
+    color: white; /* Text color */
+    background-color: red; /* Transparent background */
+    border-color: #dc3545; /* Border color */
+}
+
+.btn.btn-outline-danger:hover {
+    color: #dc3545; /* Text color on hover */
+    background-color: #fff; /* Background color on hover */
+    border-color: #dc3545; /* Border color on hover */
+}
+
+
+
+
+table
+{
+    width: 100%;
+    margin-top: 10px;
+}
+
+th
+{
+    background-color: #6200ee;
+    padding: 10px;
+    text-align: center;
+}
+
+tr
+{
+    background: rgba(255, 255, 255, 0.2);
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-collapse:separate;
+    padding: 10px;
+}
+
+td
+{
+    text-align: center;
+}
