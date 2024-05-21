@@ -187,7 +187,7 @@ function Home() {
       const url = window.URL.createObjectURL(new Blob([response.data]));
       const link = document.createElement("a");
       link.href = url;
-      link.setAttribute("download", "images.zip");
+      link.setAttribute("download", "e_id_card.png");
       document.body.appendChild(link);
       link.click();
     });
