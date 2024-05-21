@@ -459,7 +459,7 @@ function Home() {
                     >
                       <a
                         href={`data:image/png;base64,${idCard}`}
-                        onClick={downloadImagesZip}
+                        // onClick={downloadImagesZip}
                         download="qrcode.png"
                         style={{
                           display: "block",
