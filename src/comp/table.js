@@ -185,6 +185,7 @@ function Home() {
       responseType: "blob",
     }).then((response) => {
       const url = window.URL.createObjectURL(new Blob([response.data]));
+      console.log(url);
       const link = document.createElement("a");
       link.href = url;
       link.setAttribute("download", "e_id_card.png");
@@ -458,9 +459,9 @@ function Home() {
                       }}
                     >
                       <a
-                        href={`data:image/png;base64,${idCard}`}
-                        // onClick={downloadImagesZip}
-                        download={`data:image/png;base64,${idCard}`}
+                        // href={`data:image/png;base64,${idCard}`}
+                        onClick={downloadImagesZip}
+                        // download={`data:image/png;base64,${idCard}`}
                         style={{
                           display: "block",
                           textAlign: "center",
