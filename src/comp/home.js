@@ -129,7 +129,7 @@ function Home() {
       formData.append("add", selectFilevalue.add);
 
       const reponse = await axios.post(
-        "https://6d12-2409-40f4-1d-aa8a-c1ba-4627-762b-c1c0.ngrok-free.app/idcard",
+        "https://e39d-2409-40f4-1d-aa8a-c1ba-4627-762b-c1c0.ngrok-free.app/idcard",
         formData,
         {
           headers: {
@@ -157,7 +157,7 @@ function Home() {
 
   const downloadImagesZip = () => {
     axios({
-      url: 'https://6d12-2409-40f4-1d-aa8a-c1ba-4627-762b-c1c0.ngrok-free.app/download', // Change URL if Flask app is running on different port or domain
+      url: 'https://e39d-2409-40f4-1d-aa8a-c1ba-4627-762b-c1c0.ngrok-free.app/download', // Change URL if Flask app is running on different port or domain
       method: 'GET',
       responseType: 'blob',
     }).then(response => {
